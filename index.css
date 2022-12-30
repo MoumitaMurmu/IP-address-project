@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+   }
+   body{
+       /* padding: 5px; */
+       font-family: 'Inter';
+   }
+   .paragraph{
+ 
+   width: 1167px;
+   height: 41px;
+   left: 41px;
+   top: 59px;
+   padding: 5px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 34px;
+   line-height: 41px;
+   margin-left: 20px;
+   margin-top: 30px;
+   color: black;
+   
+   }
+ 
+ 
+   
+   #ipinfo{
+   
+    display: flex;
+    flex-direction: row;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 21px;
+     margin-top: 30px;
+     margin-left: 5px;
+   }
+ 
+   .rec-1{
+    
+    width: 190px;
+    left: 10px;
+    height: 100px;
+    margin-left: 20px;
+}
+    .rec-2{
+       
+        width: 250px;
+        margin-left: 20px;
+    }
+    .rec-3{
+        
+        width: 750px;
+        margin-left: 80px;
+    }
+iframe{
+    
+    margin: 20px;
+    width: 98%;
+    height: 530px;
+    display: none;
+    margin-top: 10px;
+}
+.timezoneinfo{
+    width: 97%;
+
+    margin-top:40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-left: 20px;
+    color: #000000;
+    
+   }
+.dateTimeinfo{
+    width: 97%;
+
+    margin-top:20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-left: 20px;
+    color: #000000;
+    
+   }
+   .pincodeinfo{
+    width: 97%;
+
+    margin-top:20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-left: 20px;
+    color: #000000;
+    
+   }
+   .btn{
+    text-align: center;
+    height: 67px;
+   width: 303px;
+   left: 41px;
+   top: 127px;
+   border-radius: 10px;
+   border: none;
+   
+   }
+   #search-button{
+    font-weight: 1000;
+    margin-top: 5px;
+    margin-left: 5px;
+   
+   }
+  
+   #form{
+    text-align: left;
+       display: none;
+       margin-top: 25px;
+       margin-bottom: -17px;
+       margin-left: 25px;
+       border: 1px solid black;
+       width: 90%;
+       border-radius: 10px;
+      
+   }
+   #search-term{
+       margin-left: 25px;
+       width: 80%;
+       border-radius: 8px;
+       height: 33px;
+       font-family: 'Roboto';
+       border: none;
+       font-size: 15px;
+      
+   }
+  #post-offices{
+    height: 150vh;
+
+  }
+   
+   .postoffice-box{
+       margin-top: 40px;
+       border: 1px solid black;
+       display: inline-table;
+      
+       /* margin: 42px; */
+       border-radius: 10px;
+       width: 500px;
+       height: 300px;
+       padding: 7px;
+       margin-bottom: -5px;
+       margin-left: 80px;
+       margin-right: 80px;
+       line-height: 41px;
+       font-family: 'Inter';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 24px;
+   }
+   
