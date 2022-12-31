@@ -4,7 +4,7 @@ $.getJSON("https://api.ipify.org?format=json", function (data) {
 
     // Setting text of element P with id ipAdress
     IP = data.ip
-    $("#ipAdress").html(`MY Public IP ADDRESS: ${data.ip}`);
+    $("#ip-Number").html(`MY Public IP ADDRESS: ${data.ip}`);
 })
 
 
