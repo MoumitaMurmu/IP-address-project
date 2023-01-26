@@ -49,8 +49,10 @@ const getData = async () => {
 
             let PostOfficeArray = postalData[0].PostOffice
             console.log(PostOfficeArray);
-
-            let postOffices = document.getElementById("post-offices")
+            
+            //creating postoffice boxes
+           
+         let postOffices = document.getElementById("post-offices")
             PostOfficeArray.forEach((office) => {
                 console.log(office.Name)
                 const div = document.createElement('div')
@@ -82,14 +84,14 @@ const getData = async () => {
             });
 
             console.log(PostOfficeArray);
-           
+            //search and filter
             const search = document.getElementById("searchButton")
             const searchValue = document.getElementById("search-term")
             PostOfficeArray.forEach((office)=>{
                 search.addEventListener("click",()=>{
-                    if(office.Name.includes(searchValue.value)||office.BranchType.includes(searchValue.value)){
+                 if(office.Name.includes(searchValue.value)||office.BranchType.includes(searchValue.value)){
                        
-                        let results = document.getElementById("results")
+                 let results = document.getElementById("results")
                 const div = document.createElement('div')
                 div.classList.add("postoffice-box")
                 const officeName = document.createElement('p') 
